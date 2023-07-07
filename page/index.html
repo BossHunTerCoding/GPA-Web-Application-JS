@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GPA Web Application</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
+
 <body>
-    
+    <h1 class="title">คำนวณเกรด</h1>
+    <div class='outer-box'>
+        <div class='inner-box'>
+            <p id="class-name">รายวิชา</p>
+            <form class='block'>
+                <input type="text" class='course' placeholder="ชื่อวิชา">
+                <label>หน่วยกิต</label>
+                <input type="number" class='units'>
+                <label>เกรด</label>
+                <select class='grade-select'>
+                    <option value="">Select</option>
+                    <option value="4.0">A</option>
+                    <option value="3.5">B+</option>
+                    <option value="3.0">B</option>
+                    <option value="2.5">C+</option>
+                    <option value="2.0">C</option>
+                    <option value="1.5">D+</option>
+                    <option value="1.0">D</option>
+                    <option value="0.0">F</option>
+                </select>
+            </form>
+        </div>
+        <button class='btn btn-default'>เพิ่มรายวิชา</button>
+        <div class='result'>
+            <h3 id="gpa">GPA</h3>
+        </div>
+    </div>
+    <div class='spacer'></div>
+
+    <script src="/src/app.js"></script>
 </body>
+
 </html>
