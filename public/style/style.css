@@ -12,7 +12,7 @@ body {
   width: 300px;
   margin: 30px auto auto auto;
   font-size: 50px;
-  color : orange;
+  color: orange;
   text-align: center;
 }
 
@@ -33,7 +33,7 @@ body {
   margin-left: 13px;
   font-size: 25px;
   margin: 10px auto 10px 10px;
-  color : orange;
+  color: orange;
   font-weight: bold;
 }
 
@@ -41,7 +41,7 @@ body {
   border: 1px solid orange;
   border-radius: 4px;
   height: 35px;
-  width: 500px;
+  width: 400px;
   font-size: 20px;
   padding-left: 5px;
   margin-left: 10px;
@@ -70,12 +70,23 @@ body {
   margin-bottom: 10px;
 }
 
-.btn {
+.addSubject {
   border: 2px solid orange;
   margin-left: 10px;
   font-size: 20px;
   font-weight: bold;
   width: 300px;
+  text-align: center;
+  color: white;
+  background-color: green;
+}
+
+.removeSubject {
+  border: 2px solid orange;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
   text-align: center;
   color: white;
   background-color: green;
