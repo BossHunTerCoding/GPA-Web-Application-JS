@@ -12,6 +12,7 @@ document.getElementsByClassName('btn')[0].addEventListener('click', () => {
 });
 
 document.getElementsByClassName('outer-box')[0].addEventListener('change', () => {
+  //Update GPA
   document.getElementById('gpa').textContent = getTotal() == 'NaN' ? 'GPA' : getTotal();
 });
 
